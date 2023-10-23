@@ -46,7 +46,7 @@ input[type=text]{
     background-position: 10px 15px; 
     background-size: 40px;
     background-repeat: no-repeat;
-    padding: 13px 20px 12px 50px;
+    padding: 13px 20px 12px 60px;
     -webkit-transition: 0.5s;
     background-color: #516392;
 }
@@ -76,7 +76,7 @@ p{
     margin-right: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 412px) {
     body{
         background-position: right;
     }
