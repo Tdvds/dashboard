@@ -1,0 +1,10 @@
+.logocards{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.container{
+    max-width: 1752px;
+}
