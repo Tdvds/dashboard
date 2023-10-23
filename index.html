@@ -61,9 +61,8 @@
        
 
         <div class="container">
-            <script async src="https://cse.google.com/cse.js?cx=14f2b53e80e244094">
-            </script>
-            <div class="gcse-search"></div>
+           
+            <input id="textbox" type="text" placeholder="Search on Google..." onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('textbox').value);}" />
             <div class="row">
                 <div class="col">
                     <p class="text-white mt-5 mb-5"></p>
