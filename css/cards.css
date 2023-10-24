@@ -122,3 +122,21 @@ p{
 
 
 }
+
+
+
+@media only screen and (min-width:413px) and (max-width: 1024px){
+    p{
+        font-size: 18px;
+        margin-right: 4.4vw;
+        text-align: center;
+    }
+    .logocards{
+        width: 130px;
+        height: 130px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
