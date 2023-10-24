@@ -85,6 +85,9 @@
         font-weight: bold;
         margin-right: 25px;
     }
+    .highlight:hover{
+        background-color: #517ea9;
+    }
 }
 
 
