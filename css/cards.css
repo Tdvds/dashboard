@@ -50,15 +50,16 @@ input[type=text]{
     padding: 13px 20px 12px 60px;
     -webkit-transition: 0.5s;
     background-color: #516392;
+    
 }
 input[type=text]:focus {
     background-color: white;
     border: 3px black solid;
-    color:black;
+    color:rgb(92, 92, 92);
   }
   input[type=text]:hover {
     background-color: white;
-    color: black
+    color: rgb(92, 92, 92);
   }
   #textbox:hover::placeholder{
     color: black
