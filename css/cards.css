@@ -140,7 +140,7 @@
 
 
 
-@media only screen and (max-width: 1024) {
+@media only screen and (max-width: 1024px) {
     p {
         float: right;
         font-size: 21px;
@@ -152,8 +152,8 @@
     }
 
     .logocards {
-        width: 120px;
-        height: 120px;
+        width: 125px;
+        height: 125px;
         display: block;
         margin-left: auto;
         margin-right: auto;
