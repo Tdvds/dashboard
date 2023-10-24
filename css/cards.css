@@ -125,7 +125,7 @@ p{
 
 
 
-@media only screen and (min-width:413px) and (max-width: 1024px){
+@media only screen and (min-width:71em) and (max-width: 80em){
     p{
         font-size: 18px;
         margin-right: 4.4vw;
