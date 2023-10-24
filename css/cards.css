@@ -1,88 +1,100 @@
-.logocards{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-
-.container{
-    max-width: 1752px;
-   
-}
-.testingsize{
-    border-radius: 40px;
-    box-shadow: 0px 0px 55px -7px #435C70;
-    background-color: #384568;
-    -webkit-transition: 0.5s;
-}
-.testingsize:hover{
-    box-shadow: 0px 0px 55px -7px white;
-    background-color: #495575;
-}
-
-body{
-    background-image: url(../img/backgroundimage-transformed.png);
-    background-size: cover;
-  
-}
-#textbox{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  margin-top: 5vh;
-  height: 70px;
-  border-radius: 50px;
-  border: #4E657A;
-}
-
-#textbox::placeholder{
-    font-size: 25px;
-    color:white;
-}
-
-input[type=text]{
-    font-size: 25px;
-    background-image: url('../img/magnifying-glass.png');
-    background-position: 10px 15px; 
-    background-size: 40px;
-    background-repeat: no-repeat;
-    padding: 13px 20px 12px 60px;
-    -webkit-transition: 0.5s;
-    background-color: #516392;
+@media only screen and (max-width: 2400px) {
+    .logocards {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
     
+    .container {
+        max-width: 1752px;
+    
+    }
+    
+    .testingsize {
+        border-radius: 40px;
+        box-shadow: 0px 0px 55px -7px #435C70;
+        background-color: #384568;
+        -webkit-transition: 0.5s;
+    }
+    
+    .testingsize:hover {
+        box-shadow: 0px 0px 55px -7px white;
+        background-color: #495575;
+    }
+    
+    body {
+        background-image: url(../img/backgroundimage-transformed.png);
+        background-size: cover;
+    
+    }
+    
+    #textbox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: 5vh;
+        height: 70px;
+        border-radius: 50px;
+        border: #4E657A;
+    }
+    
+    #textbox::placeholder {
+        font-size: 25px;
+        color: white;
+    }
+    
+    input[type=text] {
+        font-size: 25px;
+        background-image: url('../img/magnifying-glass.png');
+        background-position: 10px 15px;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        padding: 13px 20px 12px 60px;
+        -webkit-transition: 0.5s;
+        background-color: #516392;
+    
+    }
+    
+    input[type=text]:focus {
+        background-color: white;
+        border: 3px black solid;
+        color: rgb(92, 92, 92);
+    }
+    
+    input[type=text]:hover {
+        background-color: white;
+        color: rgb(92, 92, 92);
+    }
+    
+    #textbox:hover::placeholder {
+        color: black
+    }
+    
+    #textbox:focus::placeholder {
+        color: black;
+    }
+    
+    p {
+        float: right;
+        font-size: 24px;
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 25px;
+    }
 }
-input[type=text]:focus {
-    background-color: white;
-    border: 3px black solid;
-    color:rgb(92, 92, 92);
-  }
-  input[type=text]:hover {
-    background-color: white;
-    color: rgb(92, 92, 92);
-  }
-  #textbox:hover::placeholder{
-    color: black
-  }
-  #textbox:focus::placeholder{
-    color:black;
-  }
 
-p{
-    float: right;
-    font-size: 24px;
-    margin-top: 25px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    margin-right: 25px;
-}
 
-@media only screen and (max-width: 70em) {
-    body{
+
+@media only screen and (min-width:1025px) and (max-width: 1120px) {
+    body {
         background-position: right;
     }
-    .logocards{
+
+    .logocards {
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -90,12 +102,12 @@ p{
         /* margin-top: 4vh; */
     }
 
-    .testingsize{
+    .testingsize {
         height: 1px;
         min-height: 250px;
     }
-    
-    p{
+
+    p {
         float: right;
         font-size: 16px;
         margin-top: 15px;
@@ -103,21 +115,23 @@ p{
         color: white;
         font-weight: bold;
     }
-    #textbox{
-        
+
+    #textbox {
+
         font-size: 20px;
         background-image: url('../img/magnifying-glass.png');
-        background-position: 10px 10px; 
+        background-position: 10px 10px;
         background-size: 40px;
         background-repeat: no-repeat;
         padding: 13px 20px 10px 60px;
-       
+
     }
-    #textbox{
+
+    #textbox {
         height: 60px;
     }
 
-    #textbox::placeholder{
+    #textbox::placeholder {
         font-size: 20px;
     }
 
@@ -126,16 +140,21 @@ p{
 
 
 
-@media only screen and (min-width:71em) and (max-width: 80em){
-    p{
-        font-size: 18px;
-        margin-right: 4.4vw;
-        text-align: center;
+@media only screen and (max-width: 1024) {
+    p {
+        float: right;
+        font-size: 21px;
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 25px;
     }
-    .logocards{
-        width: 130px;
-        height: 130px;
-        display:block;
+
+    .logocards {
+        width: 120px;
+        height: 120px;
+        display: block;
         margin-left: auto;
         margin-right: auto;
 
